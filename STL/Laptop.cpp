@@ -68,6 +68,7 @@ public:
 	
 
 };
+
 ostream& operator<<(ostream& os, Laptop& obj) {
 	os << "Firm:" << obj.firm << " ";
 	os << "Color:" << obj.color << " ";
