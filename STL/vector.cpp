@@ -3,6 +3,7 @@
 #include<deque>
 #include<forward_list>
 #include<list>
+#include <array>
 using namespace std;
 
 class Point
@@ -34,5 +35,18 @@ int main() {
 	forward_list<int>arr3{1,2,4,5};
 	for (auto it = arr.begin(); it != arr.end(); it++) {
 		cout << *it;
+	}
+
+	array<int, 10>arr;
+	for (int i = 0; i < arr.size(); i++) {
+		arr[i] = i + 1;
+		cout << arr[i];
+	}
+	cout << endl;
+	arr[0] = 0;
+	arr[9] = 0;
+	for (int i = 0; i < arr.size(); i++) {
+		arr[i] = i + 1;
+		cout << arr[i];
 	}
 }

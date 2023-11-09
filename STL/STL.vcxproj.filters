@@ -21,5 +21,11 @@
     <ClCompile Include="Laptop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Set_multyset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
